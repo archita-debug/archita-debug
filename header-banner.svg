@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="280" viewBox="0 0 900 280">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap');
+
+      .bg { fill: #0a0510; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 38px; font-weight: 700; fill: #ffffff; }
+      .title-pink { fill: #ff6b9d; }
+      .sub { font-family: 'Segoe UI', sans-serif; font-size: 15px; fill: #cccccc; }
+      .heart { fill: #ff6b9d; }
+
+      /* Bunny run across */
+      .bunny-group {
+        animation: bunnyRun 8s linear infinite;
+      }
+      @keyframes bunnyRun {
+        0%   { transform: translateX(-150px); }
+        100% { transform: translateX(1050px); }
+      }
+
+      /* Petal animations */
+      .p1 { animation: fall1 6s linear infinite; }
+      .p2 { animation: fall2 8s 1s linear infinite; }
+      .p3 { animation: fall3 7s 2s linear infinite; }
+      .p4 { animation: fall4 9s 0.5s linear infinite; }
+      .p5 { animation: fall5 6.5s 3s linear infinite; }
+      .p6 { animation: fall6 8s 1.5s linear infinite; }
+      .p7 { animation: fall7 7.5s 4s linear infinite; }
+      .p8 { animation: fall8 6s 2.5s linear infinite; }
+      .p9 { animation: fall9 9s 0s linear infinite; }
+      .p10 { animation: fall10 7s 3.5s linear infinite; }
+      .p11 { animation: fall11 8.5s 1s linear infinite; }
+      .p12 { animation: fall12 6.5s 5s linear infinite; }
+
+      @keyframes fall1  { 0%{transform:translate(80px,-20px)  rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.7} 100%{transform:translate(110px,290px) rotate(540deg);opacity:0} }
+      @keyframes fall2  { 0%{transform:translate(200px,-20px) rotate(0deg);opacity:0}  5%{opacity:.8} 90%{opacity:.6} 100%{transform:translate(170px,290px) rotate(480deg);opacity:0} }
+      @keyframes fall3  { 0%{transform:translate(350px,-20px) rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.7} 100%{transform:translate(390px,290px) rotate(600deg);opacity:0} }
+      @keyframes fall4  { 0%{transform:translate(500px,-20px) rotate(0deg);opacity:0}  5%{opacity:.8} 90%{opacity:.5} 100%{transform:translate(530px,290px) rotate(420deg);opacity:0} }
+      @keyframes fall5  { 0%{transform:translate(650px,-20px) rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.8} 100%{transform:translate(620px,290px) rotate(560deg);opacity:0} }
+      @keyframes fall6  { 0%{transform:translate(780px,-20px) rotate(0deg);opacity:0}  5%{opacity:.7} 90%{opacity:.6} 100%{transform:translate(810px,290px) rotate(500deg);opacity:0} }
+      @keyframes fall7  { 0%{transform:translate(130px,-20px) rotate(0deg);opacity:0}  5%{opacity:.8} 90%{opacity:.7} 100%{transform:translate(100px,290px) rotate(450deg);opacity:0} }
+      @keyframes fall8  { 0%{transform:translate(420px,-20px) rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.6} 100%{transform:translate(450px,290px) rotate(580deg);opacity:0} }
+      @keyframes fall9  { 0%{transform:translate(720px,-20px) rotate(0deg);opacity:0}  5%{opacity:.8} 90%{opacity:.7} 100%{transform:translate(690px,290px) rotate(520deg);opacity:0} }
+      @keyframes fall10 { 0%{transform:translate(290px,-20px) rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.5} 100%{transform:translate(320px,290px) rotate(610deg);opacity:0} }
+      @keyframes fall11 { 0%{transform:translate(580px,-20px) rotate(0deg);opacity:0}  5%{opacity:.7} 90%{opacity:.8} 100%{transform:translate(550px,290px) rotate(470deg);opacity:0} }
+      @keyframes fall12 { 0%{transform:translate(860px,-20px) rotate(0deg);opacity:0}  5%{opacity:.9} 90%{opacity:.6} 100%{transform:translate(840px,290px) rotate(540deg);opacity:0} }
+
+      /* text fade in */
+      .fade-in { animation: fadeIn 1.5s ease forwards; opacity: 0; }
+      .fade-in-2 { animation: fadeIn 1.5s 0.4s ease forwards; opacity: 0; }
+      .fade-in-3 { animation: fadeIn 1.5s 0.8s ease forwards; opacity: 0; }
+      @keyframes fadeIn { to { opacity: 1; } }
+
+      /* Stars twinkle */
+      .star { fill: #ff6b9d; animation: twinkle 2s ease-in-out infinite alternate; }
+      .star2 { fill: #c44dff; animation: twinkle 3s 1s ease-in-out infinite alternate; }
+      @keyframes twinkle { from { opacity: 0.2; transform: scale(0.8); } to { opacity: 1; transform: scale(1.2); } }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="280" rx="0"/>
+
+  <!-- Subtle grid dots -->
+  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff08"/>
+  </pattern>
+  <rect width="900" height="280" fill="url(#dots)"/>
+
+  <!-- Gradient overlay top -->
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0520" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0510" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottomGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0510" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1a0520" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="140" fill="url(#topGrad)"/>
+  <rect y="140" width="900" height="140" fill="url(#bottomGrad)"/>
+
+  <!-- Twinkling stars -->
+  <polygon class="star"  points="40,20  42,26  48,26  43,30  45,36  40,32  35,36  37,30  32,26  38,26" transform="scale(0.6) translate(30,10)"/>
+  <polygon class="star2" points="860,15 862,21 868,21 863,25 865,31 860,27 855,31 857,25 852,21 858,21" transform="scale(0.5)"/>
+  <polygon class="star"  points="820,50 821,53 824,53 822,55 823,58 820,56 817,58 818,55 816,53 819,53" transform="scale(0.8)"/>
+  <polygon class="star2" points="50,200 51,203 54,203 52,205 53,208 50,206 47,208 48,205 46,203 49,203" transform="scale(0.7)"/>
+  <polygon class="star"  points="870,220 871,223 874,223 872,225 873,228 870,226 867,228 868,225 866,223 869,223" transform="scale(0.6)"/>
+
+  <!-- Falling Sakura Petals -->
+  <!-- Petal shape: 5-petal flower -->
+  <g class="p1">
+    <g transform="translate(0,0) scale(0.9)">
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.85" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.75" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.80" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.75" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.85" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2" fill="#ffe0f0"/>
+    </g>
+  </g>
+  <g class="p2">
+    <g transform="translate(0,0) scale(0.7)">
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2" fill="#ffe0f0"/>
+    </g>
+  </g>
+  <g class="p3">
+    <g transform="translate(0,0) scale(1)">
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.80" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2" fill="#ffe0f0"/>
+    </g>
+  </g>
+  <g class="p4"><g transform="scale(0.8)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p5"><g transform="scale(0.9)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.9" transform="rotate(36)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(108)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(180)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(252)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.9" transform="rotate(324)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p6"><g transform="scale(0.65)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.65" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.65" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p7"><g transform="scale(0.85)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(20)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(92)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(164)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(236)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(308)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p8"><g transform="scale(1.1)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p9"><g transform="scale(0.75)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.7" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p10"><g transform="scale(0.95)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.9" transform="rotate(15)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(87)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(159)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.8" transform="rotate(231)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.9" transform="rotate(303)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p11"><g transform="scale(0.7)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.65" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.65" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+  <g class="p12"><g transform="scale(1.0)"><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.75" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.85" transform="rotate(288)"/><circle cx="0" cy="0" r="2" fill="#ffe0f0"/></g></g>
+
+  <!-- Bunny running across -->
+  <g class="bunny-group" transform="translate(0, 160)">
+    <!-- Speed lines -->
+    <line x1="-60" y1="-10" x2="-10" y2="-10" stroke="#ff6b9d" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-70" y1="-2"  x2="-12" y2="-2"  stroke="#ff6b9d" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+    <line x1="-55" y1="-18" x2="-15" y2="-18" stroke="#ff6b9d" stroke-width="1"   stroke-linecap="round" opacity="0.3"/>
+    <!-- Small trailing petals -->
+    <circle cx="-45" cy="-22" r="4" fill="#ff6b9d" opacity="0.6"/>
+    <circle cx="-30" cy="-6"  r="3" fill="#ffaad0" opacity="0.5"/>
+    <circle cx="-55" cy="4"   r="3" fill="#ff6b9d" opacity="0.4"/>
+    <!-- Bunny body -->
+    <ellipse cx="25" cy="0"  rx="22" ry="14" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1"/>
+    <!-- Head -->
+    <ellipse cx="44" cy="-12" rx="14" ry="13" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1"/>
+    <!-- Ear left -->
+    <ellipse cx="38" cy="-30" rx="4" ry="10" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1"/>
+    <ellipse cx="38" cy="-30" rx="2" ry="7"  fill="#ffb0c8"/>
+    <!-- Ear right -->
+    <ellipse cx="48" cy="-33" rx="4" ry="11" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1"/>
+    <ellipse cx="48" cy="-33" rx="2" ry="8"  fill="#ffb0c8"/>
+    <!-- Eye -->
+    <circle cx="50" cy="-14" r="2.5" fill="#ff6b9d"/>
+    <circle cx="51"  cy="-15" r="0.9" fill="#fff"/>
+    <!-- Nose -->
+    <ellipse cx="56" cy="-9" rx="2" ry="1.5" fill="#ffb0c8"/>
+    <!-- Tail -->
+    <circle cx="4" cy="-2" r="7" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1"/>
+    <!-- Legs -->
+    <ellipse cx="16" cy="12" rx="9" ry="4" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1" transform="rotate(-20,16,12)"/>
+    <ellipse cx="32" cy="14" rx="9" ry="4" fill="#fff5f8" stroke="#ffc0cb" stroke-width="1" transform="rotate(15,32,14)"/>
+    <!-- Sakura near bunny face -->
+    <g transform="translate(36,-40) scale(0.75)">
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.9" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.8" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.9" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" opacity="0.8" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" opacity="0.9" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2" fill="#ffe0f0"/>
+    </g>
+  </g>
+
+  <!-- Main text -->
+  <text class="fade-in" x="450" y="105" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#cccccc" letter-spacing="2">Hi there 👋</text>
+  <text class="fade-in-2" x="450" y="155" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="44" font-weight="700" fill="#ffffff">I'm <tspan fill="#ff6b9d">Archita</tspan>!</text>
+  <text class="fade-in-3" x="450" y="192" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#aaaaaa" letter-spacing="1">Web Developer  ♥  DBMS Enthusiast  ♥  Graphics Explorer</text>
+
+  <!-- Bottom line decoration -->
+  <line x1="200" y1="215" x2="700" y2="215" stroke="#ff6b9d" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="450" cy="215" r="3" fill="#ff6b9d" opacity="0.6"/>
+  <circle cx="200" cy="215" r="2" fill="#ff6b9d" opacity="0.3"/>
+  <circle cx="700" cy="215" r="2" fill="#ff6b9d" opacity="0.3"/>
+
+  <!-- Corner sakura decorations (static) -->
+  <g transform="translate(30,255) scale(0.8)" opacity="0.5">
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(288)"/>
+  </g>
+  <g transform="translate(870,255) scale(0.8)" opacity="0.5">
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(288)"/>
+  </g>
+  <g transform="translate(870,30) scale(0.7)" opacity="0.4">
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(288)"/>
+  </g>
+  <g transform="translate(30,30) scale(0.7)" opacity="0.4">
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ffaad0" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-5" rx="3.5" ry="5.5" fill="#ff6b9d" transform="rotate(288)"/>
+  </g>
+</svg>
