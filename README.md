@@ -119,7 +119,6 @@ Personal developer portfolio showcasing projects, skills & experience.
 
 - 🏆 Participated in HackRx, SIH, Vultr Hackathon (2nd Round)
 - 🖥️ **Vice President** — Quantum Computing Club (2025)
-- 🌸 Content Creator @ ISET | Social Media @ IIC
 - 🚀 Open Source contributor & always up for collaboration!
 
 ---
@@ -136,11 +135,8 @@ Personal developer portfolio showcasing projects, skills & experience.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=archita-debug&hide_border=true&background=0d0010&ring=FF1493&fire=FF69B4&currStreakLabel=FF1493&sideLabels=FF69B4&dates=FFB6C1&sideNums=FF1493&currStreakNum=FF69B4"/>
 </p>
 
-### 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=archita-debug&no-frame=true&no-bg=true&theme=radical&column=6"/>
-</p>
+
 
 ---
 
