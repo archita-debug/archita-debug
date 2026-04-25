@@ -2,8 +2,8 @@
   <img src="header-banner.svg" width="100%" alt="Hi there! I'm Archita!"/>
 </div>
 
-<h1 align="center">Hi 👋, I'm Archita Bhalotia</h1>
-<h3 align="center">🌸 Web Developer &nbsp;•&nbsp; ⚛️ React Enthusiast &nbsp;•&nbsp; 🧠 Always Learning 🌸</h3>
+<!-- <h1 align="center">Hi 👋, I'm Archita Bhalotia</h1>
+<h3 align="center">🌸 Web Developer &nbsp;•&nbsp; ⚛️ React Enthusiast &nbsp;•&nbsp; 🧠 Always Learning 🌸</h3> -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FF1493&center=true&vCenter=true&width=550&lines=BTech+CSE+%40+CVRGU+%F0%9F%8C%B8;Web+Developer+%F0%9F%92%BB;React+%26+Full-Stack+Explorer+%E2%9A%9B%EF%B8%8F;Hackathon+Lover+%F0%9F%A4%96;Always+Learning+%E2%9C%8C%EF%B8%8F" alt="Typing SVG"/>
