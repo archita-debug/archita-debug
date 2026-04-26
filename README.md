@@ -67,7 +67,6 @@
 
 - ⚛️ React & Tailwind CSS for frontend mastery
 - 🤖 Advanced use of LLMs for intelligent document understanding
-- 🌐 Blockchain integration using `ethers.js`
 - 🏗️ Building full-stack apps for real-world problems (like WeathCare ☁️❤️)
 
 ---
