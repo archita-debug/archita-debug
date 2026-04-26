@@ -74,7 +74,7 @@
 
 ## 📌 Featured Projects
 
-### 🔹 [Swachhsetu](https://github.com/archita-debug)
+### 🔹 [Swachhsetu](https://swachh-setu-rho.vercel.app/)
 A **Progressive Web App** using IoT, AI, and gamification to unify citizens, municipal authorities, and sanitation workers.
 
 > 🌍 Real-time vehicle tracking & geo-tagged reporting to optimize waste collection routes.
@@ -98,10 +98,10 @@ A real-time weather forecasting web app with **personalized health recommendatio
 
 ---
 
-### 🔹 [Portfolio](https://archita-debug.github.io/portfolio/)
+### 🔹 [Portfolio](https://archita-debug.github.io/personal-portfolio-website/)
 Personal developer portfolio showcasing projects, skills & experience.
 
-> 🌸 Live at: [archita-debug.github.io/portfolio](https://archita-debug.github.io/portfolio/)
+> 🌸 Live at: [archita-debug.github.io/portfolio](https://archita-debug.github.io/personal-portfolio-website/)
 
 ---
 
@@ -147,7 +147,7 @@ Personal developer portfolio showcasing projects, skills & experience.
     <img src="https://img.shields.io/badge/📧%20arbhalotia123@gmail.com-FF1493?style=for-the-badge&labelColor=8B0057"/>
   </a>
   &nbsp;
-  <a href="https://archita-debug.github.io/portfolio/">
+  <a href="https://archita-debug.github.io/personal-portfolio-website/">
     <img src="https://img.shields.io/badge/🌐%20Portfolio-FF69B4?style=for-the-badge&labelColor=8B0057"/>
   </a>
 </p>
