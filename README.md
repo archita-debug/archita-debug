@@ -81,7 +81,7 @@ A **Progressive Web App** using IoT, AI, and gamification to unify citizens, mun
 
 ---
 
-### 🔹 [CGU Space Club Website](https://github.com/archita-debug/space-club)
+### 🔹 [CGU Space Club Website](https://democguspaceclub.netlify.app/)
 A fully responsive, multi-section website for the Space Club built with **React.js**.
 
 > ⚛️ Reusable components & smooth animations for enhanced user interaction.
@@ -100,7 +100,7 @@ A real-time weather forecasting web app with **personalized health recommendatio
 ### 🔹 [Portfolio](https://archita-debug.github.io/personal-portfolio-website/)
 Personal developer portfolio showcasing projects, skills & experience.
 
-> 🌸 Live at: [archita-debug.github.io/portfolio](https://archita-debug.github.io/personal-portfolio-website/)
+> 🌸 Live at: [archita-debug.github.io/personal-portfolio-website/](https://archita-debug.github.io/personal-portfolio-website/)
 
 ---
 
