@@ -89,7 +89,7 @@ A fully responsive, multi-section website for the Space Club built with **React.
 
 ---
 
-### 🔹 [WeathCare App](https://github.com/archita-debug)
+### 🔹 [WeathCare App](https://weathercare-pearl.vercel.app/)
 A real-time weather forecasting web app with **personalized health recommendations**.
 
 > 🌧️ "If it's gonna rain, better carry that umbrella AND a ginger tea suggestion."
