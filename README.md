@@ -25,7 +25,7 @@
 
 ## 👩‍💻 About Me
 
-- 🎓 3rd Year BTech CSE @ **CV Raman Global University**, Bhubaneswar | CGPA: **9.25**
+- 🎓 Final Year BTech CSE @ **CV Raman Global University**, Bhubaneswar | CGPA: **9.33**
 - 🌏 Based in **Bhubaneswar, Odisha** — building useful, beautiful & meaningful software
 - 💼 Currently interning at **TiesVersa** — gaining real-world industry experience
 - 🔬 Published researcher — ML & water quality detection at **PIMRG 2025**
